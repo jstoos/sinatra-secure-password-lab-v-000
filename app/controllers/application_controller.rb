@@ -15,7 +15,7 @@ class ApplicationController < Sinatra::Base
   get "/signup" do
     params[:username]
     params[:password]
-    # erb :signup
+    erb :signup
   end
 
   post "/signup" do
